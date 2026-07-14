@@ -1,0 +1,14 @@
+# scratch / tooling (kept outside the tracked tree)
+*.tmp
+*.log
+/tmp/
+_scratch/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
