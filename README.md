@@ -1,6 +1,6 @@
 # paper-track
 
-paper tracking — 跟踪**智能体（Agent）**与**强化学习应用（RL Applications）**两个领域的最新论文（顶会 / 顶尖企业 / 顶级科研院校预印本）。每日按主题聚类产出带图像分析的中文简报。
+paper tracking — 跟踪**智能体（Agent）**与 **Agentic RL（智能体强化学习）**两个领域的最新论文（顶会 / 顶尖企业 / 顶级科研院校预印本）。每日按主题聚类产出带图像分析的中文简报。
 
 ## 目录结构
 
@@ -12,11 +12,33 @@ paper tracking — 跟踪**智能体（Agent）**与**强化学习应用（RL Ap
 
 | 日期 | 领域 | 主题 | 简报 | 收录论文 |
 |------|------|------|------|---------|
+| 2026-07-20 | 智能体 | 自适应记忆 / 自演化 harness / 失败归因与纠错 / 评测严谨性 | [2026-07-20-agent-papers-brief.md](briefs/2026-07-20-agent-papers-brief.md) | MEMCON、MemoHarness、Experience Memory Graph、OAT、Rethinking Harness Evolution |
+| 2026-07-20 | Agentic RL | 长程信用分配 / 自演化蒸馏 / 树式 rollout / 留一轮归因 / 可扩展环境 | [2026-07-20-agentic-rl-papers-brief.md](briefs/2026-07-20-agentic-rl-papers-brief.md) | TRACE、SEED、PATR、LOTAPO、ToolVerse |
 | 2026-07-14 | 智能体 | CUA / 工具调用 / 长程状态 / 流程合规 / 全模态取证 | [2026-07-14-agent-papers-brief.md](briefs/2026-07-14-agent-papers-brief.md) | ScaleCUA、StructAgent、MM-ToolSandBox、Omni-Decision、Compile-Then-Page |
 | 2026-07-14 | 智能体 · 第二批 | 机器人控制 / 弃权校准 / 工具侧记忆 / 多智能体探索 / 存储足迹 | [2026-07-14-agent-papers-brief-b.md](briefs/2026-07-14-agent-papers-brief-b.md) | VIA、AgentAbstain、ToolAtlas、MACE、AgentFootprint |
 | 2026-07-14 | 强化学习应用 | 灵巧操作 sim-to-real / 生成式控制策略 / 可验证物理奖励 / 离线到在线 / LLM RL 稳定性 | [2026-07-14-rl-papers-brief.md](briefs/2026-07-14-rl-papers-brief.md) | REGRIND、VINE、RLVP、Robo-ValueRL、ARMOR |
 
 ## 收录论文原文
+
+### 智能体（2026-07-20 批次）
+
+| arXiv | 简称 | 机构 | PDF | 图 |
+|-------|------|------|-----|----|
+| 2607.13591 | MEMCON | UCLA · UW · Northwestern | [PDF](papers/2607.13591_MEMCON.pdf) | [figures](figures/2607.13591_MEMCON/) |
+| 2607.14159 | MemoHarness | Notre Dame · LMU · USC | [PDF](papers/2607.14159_MemoHarness.pdf) | [figures](figures/2607.14159_MemoHarness/) |
+| 2607.13884 | Experience Memory Graph | 电子科技大学（UESTC） | [PDF](papers/2607.13884_ExperienceMemoryGraph.pdf) | [figures](figures/2607.13884_ExperienceMemoryGraph/) |
+| 2607.12747 | OAT | UW-Madison · Microsoft Research | [PDF](papers/2607.12747_OAT.pdf) | [figures](figures/2607.12747_OAT/) |
+| 2607.12227 | Rethinking Harness Evolution | AI2 · UW | [PDF](papers/2607.12227_HarnessEvolEval.pdf) | [figures](figures/2607.12227_HarnessEvolEval/) |
+
+### Agentic RL（2026-07-20 批次）
+
+| arXiv | 简称 | 机构 | PDF | 图 |
+|-------|------|------|-----|----|
+| 2607.13988 | TRACE | UW-Madison · Microsoft Research | [PDF](papers/2607.13988_TRACE.pdf) | [figures](figures/2607.13988_TRACE/) |
+| 2607.14777 | SEED | 清华 · 浙大 · CUHK · NTU | [PDF](papers/2607.14777_SEED.pdf) | [figures](figures/2607.14777_SEED/) |
+| 2607.15610 | PATR | UCSD · Amazon | [PDF](papers/2607.15610_PATR.pdf) | [figures](figures/2607.15610_PATR/) |
+| 2607.13501 | LOTAPO | 浙江大学 | [PDF](papers/2607.13501_LOTAPO.pdf) | [figures](figures/2607.13501_LOTAPO/) |
+| 2607.15660 | ToolVerse | 美团 LongCat · 北大 · 复旦 | [PDF](papers/2607.15660_ToolVerse.pdf) | [figures](figures/2607.15660_ToolVerse/) |
 
 ### 智能体（2026-07-14 批次）
 
